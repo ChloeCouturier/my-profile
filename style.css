@@ -1,0 +1,111 @@
+body {
+	background: #EDEAEA;
+	font-family: DM Serif Display;
+	text-align: center;
+ 	color: #B0D1C2;
+ 	margin: 80px;
+ }
+
+ .img-circle {
+ 	border-radius: 40%;
+ 	width: 125px;
+ }
+
+ h1,h2 {
+ 	font-family: Bebas Neue;
+ }
+
+ h1 {
+	color: #82966A;
+	font-size: 50px;
+
+ }
+ h2 {
+	color: #82966A;
+ }
+
+ a {
+ 	color: #60534B;
+ 	text-decoration: none;
+ 	transition: color 0.3 ease;
+ }
+ a:hover {
+ 	color: green;
+ 	text-decoration: none;
+ }
+
+ div {
+	display: block;
+	unicode-bidi: isolate;
+}
+
+ .container {
+ 	background: white;
+ 	border: 4px;
+ 	border-color: #B0D1C2;
+ 	margin: 5px;
+ 	width: 700px;
+ 	margin: 40px auto;
+ 	padding: 40px;
+ }
+
+ @media (max-width 7600px) {
+ 	.container {
+ 		width: 600px;
+ 	}
+ }
+
+ @media (max-width: 500px) {
+ 	.container {
+ 		background-color: #82966A;
+ 	}
+ }
+
+.card-white {
+	text-align: center;
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px
+}
+
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: : 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i.hover {
+	color: black;
+}
+
+#introduction {
+	margin-bottom: 40px;
+	background: card-white;
+ 	border: 2px;
+ 	border-color: #B0D1C2;
+ 	margin: 5px;
+}
